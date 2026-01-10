@@ -1,0 +1,21 @@
+/* IMPORTS MUST COME FIRST */
+@import "../assets/css/icons.css";
+@import "../assets/css/style.css";
+@import "../assets/libs/simplebar/simplebar.min.css";
+@import "../assets/libs/@simonwep/pickr/themes/nano.min.css";
+@import "../assets/libs/jsvectormap/css/jsvectormap.min.css";
+@import "../assets/libs/tabulator-tables/css/tabulator.min.css";
+@import "../assets/libs/gridjs/theme/mermaid.min.css";
+
+
+
+/* TAILWIND */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+[x-cloak] {
+    display: none !important;
+}
+
